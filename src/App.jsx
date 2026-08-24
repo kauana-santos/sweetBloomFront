@@ -1,11 +1,11 @@
 import './App.css'
-import Admin from './pages/admin'
+import Admin from './pages/Admin/Admin'
 
 function App() {
 
   return (
     <>
-      <h1>teste</h1>
+      
       <Admin/>
     </>
   )
