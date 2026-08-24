@@ -51,21 +51,32 @@
     background-color: #f8aef7;
 }
 
-.table{
+.tableContainer{
+    background-color: rgb(240, 240, 240);
     border-radius: 5px;
-    box-shadow: 1px 1px 5px #cfcfcfe5;
-    min-height: 70vh;
     
+    min-height: 65vh;
 }
 
 .inputFiltrar{
     border: 0;
-    background-color: rgb(246, 250, 250);
-    margin: 20px 0;
+    background-color: #babbbb;
+    margin: 20px;
     padding: 8px;
     border-radius: 5px;
     width: 90px;
     box-shadow: 1px 1px 5px #cfcfcfe5;
-
 }
 
+.filterContainer::after {
+    content: "";
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+.table{
+    overflow-y: auto;
+}
