@@ -1,3 +1,36 @@
 .products{
     min-height: 100vh;
+    background-color: aqua;
+}
+
+.titleContainer{
+    background-color: azure;
+    padding: 20px 0;
+}
+
+.titleContainer h3{
+    text-align: center;
+}
+
+.containerProducts{
+    height: 90vh;
+    background-color: brown;
+}
+
+.filterContainer{
+    background-color: beige;
+}
+
+.filterContainer input{
+    padding: 5px;
+    margin-left: 40px;
+}
+.cardsContainer{
+    padding: 30px;
+}
+
+.productCard{
+    width: 240px;
+    height: 250px;
+    border: 1px solid #000;
 }
