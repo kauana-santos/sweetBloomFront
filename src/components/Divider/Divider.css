@@ -1,3 +1,49 @@
-.divider{
-    height: 100vh;
+.beneficios {
+    width: 100%;
+    height: 25vh;
+    background-color: #563e32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+
+.beneficios-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.beneficio {
+    width: 140px;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.beneficio img {
+    width: 55px;
+    height: 55px;
+
+    object-fit: contain;
+
+    margin-bottom: 5px;
+}
+
+.beneficio p {
+    margin: 0;
+
+    color: #171717;
+
+    font-size: 12px;
+    line-height: 1.2;
+}
+
