@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <footer>
         <div className="containerCard">
-            <img src={IconPng} alt="" />
+            <img src={IconPng} alt="" className="iconFooter" />
         </div>
 
         <div className="social">
             <h3>Nossas redes</h3>
-            <div>
+            <div className="socialMedia">
                 <ul>
                     <li>Facebook</li>
                     <li>Instagram</li>
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
 
         <div className="location">
-            <img src={map} alt=""/>
+            <img src={map} alt="" className="map"/>
         </div>
     </footer>
   )
