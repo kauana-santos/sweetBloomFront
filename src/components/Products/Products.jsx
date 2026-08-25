@@ -7,7 +7,7 @@ const Products = () => {
         </div>
 
         <div className="containerProducts">
-            <div className="filterContainer">
+            <div className="filterContainerProduct">
                 <input type="text"  placeholder="filtrar" />
             </div>
 
