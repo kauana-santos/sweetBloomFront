@@ -1,0 +1,30 @@
+.productCard{
+    width: 260px;
+    height: 270px;
+    border: 1px solid #000;
+    background-color: beige;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imageContainer{
+    background-color: aliceblue;
+    height: 150px;
+}
+
+.productInfo{
+    margin: 0 10px ;
+}
+
+.btnContainer{
+    padding: 10px 5px;
+}
+
+.btnContainer .btnCart{
+    padding: 4px;
+    border: none;
+    border-radius: 3px;
+    background-color: aquamarine;
+}

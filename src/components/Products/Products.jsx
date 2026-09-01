@@ -1,3 +1,4 @@
+import CardProduct from "../CardProduct"
 import "./Products.css"
 const Products = () => {
   return (
@@ -12,17 +13,15 @@ const Products = () => {
             </div>
 
             <section className="cardsContainer">
-                <div className="productCard">
-                    <img src="" alt="" />
-
-                    <h4>Nome do produto</h4>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-
-                    <div>
-                        <button className="btnCart">Adicionar ao carrinho</button>
-                    </div>
-                </div>
+                <CardProduct/>
+                <CardProduct/>
+                <CardProduct/>
+                <CardProduct/>
+                <CardProduct/>
+                <CardProduct/>
+                <CardProduct/>
+                <CardProduct/>
+                <CardProduct/>
             </section>
         </div>
     </section>

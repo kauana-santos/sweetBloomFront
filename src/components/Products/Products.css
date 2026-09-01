@@ -11,7 +11,7 @@
 }
 
 .containerProducts{
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .filterContainerProduct input{
@@ -19,13 +19,12 @@
     margin-left: 40px;
 }
 .cardsContainer{
+    width: 100%;
     padding: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    gap: 40px;
+    justify-content: center;
 }
 
-.productCard{
-    width: 240px;
-    height: 250px;
-    border: 1px solid #000;
-    background-color: beige;
-    border-radius: 8px;
-}
