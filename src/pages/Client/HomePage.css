@@ -1,3 +1,10 @@
+:root{
+    --divider-background:#503B31 ;
+    --dividerBeneficio-background: #FCFCFC;
+    --sectionProducts-background: #FCFCFC;
+    --btnCart-background: #EF476F;
+}
+
 .hero {
     width: 100%;
     height: 100vh;
@@ -6,7 +13,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
     justify-content: center;
     align-items: center;

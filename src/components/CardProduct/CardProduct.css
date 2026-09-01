@@ -1,8 +1,8 @@
 .productCard{
     width: 260px;
     height: 270px;
-    border: 1px solid #000;
-    background-color: beige;
+    box-shadow: 1px 1px 5px #838383;
+    background-color: var(--sectionProducts-background);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 .imageContainer{
-    background-color: aliceblue;
+    background-color:#838383;
     height: 150px;
 }
 
@@ -26,5 +26,6 @@
     padding: 4px;
     border: none;
     border-radius: 3px;
-    background-color: aquamarine;
+    background-color:  var(--btnCart-background);
+    color: #fff;
 }

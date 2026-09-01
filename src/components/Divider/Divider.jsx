@@ -1,5 +1,7 @@
 import "./Divider.css"
-
+import { MdOutlineDeliveryDining } from "react-icons/md";
+import { BiSupport } from "react-icons/bi";
+import { GiCupcake } from "react-icons/gi";
 
 const Divider = () => {
   return (
@@ -8,7 +10,8 @@ const Divider = () => {
       <div className="beneficios-container">
 
         <div className="beneficio">
-          <img alt="" />
+          <MdOutlineDeliveryDining />
+
 
             <p>
               Entregas em toda<br />
@@ -17,12 +20,12 @@ const Divider = () => {
         </div>
 
         <div className="beneficio">
-          <img alt="" />
+          <BiSupport/>
           <p>Suporte 24 horas</p>
         </div>
 
         <div className="beneficio">
-          <img alt="" />
+          <GiCupcake/>
           <p>Suporte 24 horas</p>
         </div>
 

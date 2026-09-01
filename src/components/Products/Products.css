@@ -1,5 +1,6 @@
 .products{
     min-height: 100vh;
+    background-color: var(--sectionProducts-background);
 }
 
 .titleContainer{

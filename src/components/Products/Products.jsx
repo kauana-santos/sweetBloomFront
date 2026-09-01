@@ -21,7 +21,6 @@ const Products = () => {
                 <CardProduct/>
                 <CardProduct/>
                 <CardProduct/>
-                <CardProduct/>
             </section>
         </div>
     </section>

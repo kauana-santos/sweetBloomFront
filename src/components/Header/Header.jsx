@@ -1,5 +1,6 @@
 import "./Header.css"
 import ImgIcon from "../../assets/logoIcon.png"
+import { BsCart3 } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
               <li>Home</li>
               <li>Produtos</li>
               <li>Contato</li>
-              <li>🚗</li>
+              <li><BsCart3 /></li>
             </ul>
         </nav>
     </header>
