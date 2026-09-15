@@ -1,7 +1,7 @@
 import IconPng from"../../assets/selo.png"
 import { FaFacebookSquare } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 import "./Footer.css"
 
@@ -17,8 +17,8 @@ const Footer = () => {
             <div className="socialMedia">
                 <ul>
                     <li><FaFacebookSquare className="iconeFooter"/></li>
-                    <li><FaSquareInstagram className="iconeFooter"/></li>
-                    <li><FaSquareXTwitter className="iconeFooter"/></li>
+                    <li><FaInstagram className="iconeFooter"/></li>
+                    <li><FaXTwitter className="iconeFooter"/></li>
                 </ul>
             </div>
 

@@ -1,5 +1,6 @@
-import Table from "../../components/Table"
+
 import Logo from "../../assets/logo.png"
+import Table from "../../components/Table/Table"
 import "./Admin.css"
 
 

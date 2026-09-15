@@ -12,7 +12,7 @@ const HomePage = () => {
     <section className="hero">
         <div className="containerLogo">
             <img src={LogoPrincipal} alt="logo principal"  className="imgPrincipal"/>
-            <p className="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <p className="texto">Doces feitos com carinho para transformar cada momento em uma experiência ainda mais especial. </p>
         </div>
     </section>
     <Divider/>

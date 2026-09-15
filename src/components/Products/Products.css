@@ -16,13 +16,15 @@
 }
 
 .filterContainerProduct input{
-    padding: 5px;
+    padding: 6px;
     margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #a3a3a3;
 }
 .cardsContainer{
     width: 100%;
     padding: 30px;
-
     display: grid;
     grid-template-columns: repeat(4, 260px);
     gap: 40px;
