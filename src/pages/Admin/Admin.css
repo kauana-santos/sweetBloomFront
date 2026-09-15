@@ -6,6 +6,7 @@
 
 .adminSection{
     background-color: var(--background-section);
+    height: 100vh;
 }
 
 .adminSection header{
@@ -20,9 +21,8 @@
 }
 
 .mainContent{
-    
     height: 90vh;
-    padding: 0px 90px;
+    padding: 90px;
 }
 
 .title{
