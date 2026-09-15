@@ -39,3 +39,8 @@ header {
     text-decoration: none;
     color: #000;
 }
+
+.iconeHeader{
+    font-size: 24px;
+    color: #222222;
+}

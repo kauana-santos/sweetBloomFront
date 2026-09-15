@@ -11,7 +11,7 @@ const Header = () => {
               <li>Home</li>
               <li>Produtos</li>
               <li>Contato</li>
-              <li><BsCart3 /></li>
+              <li><BsCart3 className="iconeHeader"/></li>
             </ul>
         </nav>
     </header>

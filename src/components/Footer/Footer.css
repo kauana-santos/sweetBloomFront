@@ -4,7 +4,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 25vh;
+    min-height: 20vh;
 
 }
 
@@ -26,9 +26,9 @@ footer{
 }
 
 .socialMedia ul li{
-    margin: 0px 20px;
+    margin: 0px 6px;
 }
 
-.map{
-    height: 150px;
+.iconeFooter{
+    font-size: 30px;
 }

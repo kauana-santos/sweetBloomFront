@@ -10,8 +10,7 @@ const Divider = () => {
       <div className="beneficios-container">
 
         <div className="beneficio">
-          <MdOutlineDeliveryDining />
-
+          <MdOutlineDeliveryDining className="icone" />
 
             <p>
               Entregas em toda<br />
@@ -20,16 +19,17 @@ const Divider = () => {
         </div>
 
         <div className="beneficio">
-          <BiSupport/>
+          <BiSupport className="icone"/>
           <p>Suporte 24 horas</p>
         </div>
 
         <div className="beneficio">
-          <GiCupcake/>
-          <p>Suporte 24 horas</p>
+          <GiCupcake className="icone"/>
+          <p>Doces para encomendas</p>
         </div>
 
       </div>
+      
     </section>
   )
 }
