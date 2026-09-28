@@ -1,5 +1,5 @@
-:root{
-    --divider-background:#503B31 ;
+:root {
+    --divider-background: #503B31;
     --dividerBeneficio-background: #FCFCFC;
     --sectionProducts-background: #FCFCFC;
     --btnCart-background: #EF476F;
@@ -13,9 +13,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* importante */
+    position: relative;
 }
 
 .containerLogo {
@@ -33,24 +37,46 @@
     height: auto;
 }
 
-.texto{
+.texto {
     text-align: center;
     margin-top: 15px;
     font-size: 20px;
     max-width: 590px;
 }
 
-.divider-svg{
-    position: relative;
-    top: -15px;
+
+/* WAVE DO FINAL DO HERO */
+
+.divider-svg-top {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 2;
 }
 
-.divider-svg svg{
+.divider-svg-top svg {
     width: 100%;
-    position: relative;
-    overflow-x: hidden;
+    height: 100px;
+    display: block;
+    transform: rotate(180deg);
 }
 
-svg path{
+/* DIVIDER */
+
+.divider-svg {
     width: 100%;
+    height: 100px;
+
+    overflow: hidden;
+    line-height: 0;
+}
+
+.divider-svg svg {
+    width: 100%;
+    height: 100px;
+    display: block;
 }
